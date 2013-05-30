@@ -1,4 +1,3 @@
 phonecatApp
 ===========
-
-Phonecat Angular JS + RequireJS + Grails
+PhonecatApp with AngularJS + RequireJS + Grails

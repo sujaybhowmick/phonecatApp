@@ -1,9 +1,6 @@
 import com.phoneApp.app.Phone
 import com.phoneApp.app.PhoneDetail
 
-import java.util.HashMap
-import java.util.Stack
-
 import groovy.json.JsonSlurper
 import groovy.io.FileType
 import org.codehaus.groovy.grails.commons.ApplicationHolder

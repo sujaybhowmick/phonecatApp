@@ -36,8 +36,8 @@ require([
     ],
     function(angular, angularResource, app, domReady){
         'use strict';
-        app.config(['$routeProvider',
-            function($routeProvider){
+        app.config(['$routeProvider', '$locationProvider',
+            function($routeProvider, $locationProvider){
                 $routeProvider.when('/', {
                     controller: 'PhoneCtrl',
                     resolve:{

@@ -29,9 +29,8 @@
         </div>
       </div>
     </div>
-    <div class="row"></div>
     <!-- Add your site or application content here -->
     <div ng-view></div>
-    <script data-main="js/app/main" src="js/app/vendor/require.js" ></script>
+    <script data-main="js/app/scripts/main" src="js/app/scripts/vendor/require.js" ></script>
   </body>
 </html>

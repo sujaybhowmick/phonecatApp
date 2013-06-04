@@ -6,12 +6,14 @@
  * To change this template use File | Settings | File Templates.
  */
 require.config({
-    baseUrl: 'js/app',
+    baseUrl: 'js/app/scripts/',
     paths:{
         angular: 'vendor/angular.min',
         jquery: 'vendor/jquery.min',
         domReady: 'vendor/ready.min',
-        angularResource: 'vendor/angular-resource.min'
+        angularResource: 'vendor/angular-resource.min',
+        properties: 'conf/properties',
+        config: 'conf/Config'
     },
     shim: {
         angular: {
@@ -29,11 +31,12 @@ require([
         'angularResource',
         'app',
         'domReady',
+        'properties',
+        'config',
         'services/phoneService',
         'controllers/phoneController',
         'filters/checkMarkFilter',
         'directives/mydirective'
-
     ],
     function(angular, angularResource, app, domReady){
         'use strict';

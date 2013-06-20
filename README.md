@@ -28,8 +28,8 @@
         + web-app
             + css                 ---> css style files
             + js                  ---> javascript files
-                + app             ---> * AngularJS app files
-                + scripts         ---> * AngularJS controllers, services js files
+                + app             ---> AngularJS app files
+                + scripts         ---> AngularJS controllers, services js files
                     + conf
                     + controllers
                     + directives

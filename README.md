@@ -1,10 +1,10 @@
 # App demonstrating the use of with AngularJS + RequireJS + Grails
 
-* AngularJS - Angular.js is an open-source Javascript MVC (Model-View-Controller) framework developed by
+* [AngularJS](http://angularjs.org/) - Angular.js is an open-source Javascript MVC (Model-View-Controller) framework developed by
             Google. It gives Javascript developers a highly structured approach to developing rich browser-based
             applications which leads to very high productivity.
-* RequireJS - RequireJS is a JavaScript file and module loader.
-* Grails    - Server side rest endpoint
+* [RequireJS](http://requirejs.org/) - RequireJS is a JavaScript file and module loader.
+* [Grails](http://grails.org) - Server side rest endpoint
 
 ## Directory Layout
 
@@ -28,8 +28,8 @@
         + web-app
             + css                 ---> css style files
             + js                  ---> javascript files
-                + app             ---> AngularJS app files
-                + scripts         ---> AngularJS controllers, services js files
+                + app             ---> * AngularJS app files
+                + scripts         ---> * AngularJS controllers, services js files
                     + conf
                     + controllers
                     + directives

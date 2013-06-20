@@ -28,15 +28,15 @@
         + web-app
             + css                 ---> css style files
             + js                  ---> javascript files
-                + app             ---> [AngularJS](http://angularjs.org/) app files
-                + scripts         ---> [AngularJS](http://angularjs.org/) controllers, services js files
+                + app             ---> *AngularJS app files
+                + scripts         ---> *AngularJS controllers, services js files
                     + conf
                     + controllers
                     + directives
                     + filters
                     + services
                     + vendor
-                    + views       ---> [AngularJS](http://angularjs.org/) view html files
+                    + views       ---> *AngularJS view html files
                 + test
                     + unit        ---> Karma unit test files
                     + e2e         ---> Karma e2e test files

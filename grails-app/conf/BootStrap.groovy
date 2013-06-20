@@ -8,7 +8,7 @@ import org.codehaus.groovy.grails.commons.ApplicationHolder
 class BootStrap {
 
     def init = { servletContext ->
-        /*def slurper = new JsonSlurper()
+       /* def slurper = new JsonSlurper()
         FileReader reader = new FileReader("phones.json")
         def phones = slurper.parse(reader)
         def jsonFolder = 'phones-data'
@@ -26,7 +26,8 @@ class BootStrap {
                     phone.save()
                 }
             }
-        } */
+        }
+        */
     }
 
     def destroy = {

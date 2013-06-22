@@ -8,7 +8,7 @@ import org.codehaus.groovy.grails.commons.ApplicationHolder
 def slurper = new JsonSlurper()
 FileReader reader = new FileReader("phones.json")
 def phones = slurper.parse(reader)
-def jsonFolder = 'web-app/phones-data'
+def jsonFolder = 'phones-data'
 def dir = new File(jsonFolder)
 dir.traverse(
         type:FileType.FILES,
